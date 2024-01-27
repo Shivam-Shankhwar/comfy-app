@@ -1,0 +1,15 @@
+/* 
+  This file contains the utility CSS (just like Bootstrap utility classes)
+*/
+
+.text-sm {
+  font-size: var(--text-sm);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-padding-block {
+  padding-block: 5rem;
+}

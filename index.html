@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Website</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="header-content">
+        <div class="header-links">
+          <a href="" class="text-sm">Sign in/Guest</a>
+          <a href="" class="text-sm">Create Account</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+      <div class="navbar">
+        <div class="navbar-start">
+          <a href="" class="logo">COMFY</a>
+        </div>
+
+        <div class="navbar-center">
+          <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="#">Cart</a></li>
+          </ul>
+        </div>
+
+        <div class="navbar-end">
+          <span><ion-icon name="moon-outline"></ion-icon></span>
+          <span><ion-icon name="cart-outline"></ion-icon></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SLIDER -->
+    <section class="slider">
+      <ion-icon
+        class="slideBtn nextSlide"
+        name="arrow-forward-outline"
+      ></ion-icon>
+
+      <div class="slide">
+        <img src="./images/img-1.jpg" alt="slide-1" />
+      </div>
+      <div class="slide">
+        <img src="./images/img-2.jpg" alt="slide-1" />
+      </div>
+      <div class="slide">
+        <img src="./images/img-3.jpg" alt="slide-1" />
+      </div>
+      <div class="slide">
+        <img src="./images/img-4.jpg" alt="slide-1" />
+      </div>
+      <div class="slide">
+        <img src="./images/about-1-l.jpg" alt="slide-1" />
+      </div>
+
+      <ion-icon class="slideBtn prevSlide" name="arrow-back-outline"></ion-icon>
+    </section>
+
+    <!-- FEATURED -->
+    <section class="featured-title section-padding-block">
+      <!-- FEATURED TITLE -->
+      <div class="featured-title">
+        <h2 class="text-center">Featured Product</h2>
+        <div class="underline"></div>
+      </div>
+
+      <!-- FEATURED PRODUCTS -->
+      <div class="featured-products">
+        <article><img src="./images/product-1.jpeg" alt="" /></article>
+        <article><img src="./images/product-2.jpeg" alt="" /></article>
+        <article><img src="./images/product-3.jpeg" alt="" /></article>
+      </div>
+    </section>
+  </body>
+</html>

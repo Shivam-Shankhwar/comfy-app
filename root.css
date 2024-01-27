@@ -1,0 +1,25 @@
+/* 
+  This CSS file contains all the meta CSS required for the main CSS styles like:
+    > root variables
+    > 
+*/
+
+:root {
+  /* Utility */
+  --slider-progress: 0%;
+
+  /* typography */
+  --max-width: 72em;
+  --text-sm: 1.3rem;
+
+  /* colors */
+  --bg-color-primary: #021431;
+  --color-primary: #c7c9d1;
+  --color-secondary: #f1f5f8;
+
+  --color-nav: #f0f6ff;
+  --color-white: #fff;
+
+  /* padding & margins */
+  --padding-y-small-2: 0.5rem;
+}
